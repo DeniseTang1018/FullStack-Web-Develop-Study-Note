@@ -7,7 +7,9 @@ FullStack Web Develop Study Note
 * [Back End](#Back-End)
 
 ## Front-End
-### [Concepts]
+### Concepts and UseCases
+### Study Resources
 
 ## Back-End
-### [Concepts]
+### Concepts
+### Study Resources
