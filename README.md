@@ -14,6 +14,8 @@ FullStack Web Develop Study Note
 ### Study Resources (some good website or video need to be save for dig in more knowledge and later use)
 ### Useful Tools 
 * [Adobe XD](https://www.adobe.com/products/xd.html) A powerful UI/UX design Tool
+* Live service
+* Tabnine
 
 ## Back-End
 ### Concepts and UseCases
