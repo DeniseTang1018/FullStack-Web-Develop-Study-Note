@@ -6,6 +6,7 @@ FullStack Web Develop Study Note
 * [Front End](#Front-End)
 * [Back End](#Back-End)
 * [Programming Technique](#Programming-Technique)
+* [Microservices](#Microservices)
 
 ## Front-End
 ### Concepts and UseCases
@@ -24,3 +25,10 @@ FullStack Web Develop Study Note
 * [Design Pattern](https://medium.com/educative/the-7-most-important-software-design-patterns-d60e546afb0e) 7 Most Important Software Design Patterns | Temp need to be add later
 ### Study Resources
 ### Useful Tools
+
+## Microservices
+### Concepts and UseCases
+* [challenges transforing monolithic achitecture towards microservice architecture](https://helda.helsinki.fi/bitstream/handle/10138/234239/transforming-monolithic-architecture.pdf?sequence=2&isAllowed=y) Microservice Premium
+### Study Resources (some good website or video need to be save for dig in more knowledge and later use)
+### Useful Tools 
+
