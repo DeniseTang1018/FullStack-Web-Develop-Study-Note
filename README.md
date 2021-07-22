@@ -28,6 +28,7 @@ FullStack Web Develop Study Note
 
 ## Microservices
 ### Concepts and UseCases
+* [Microservice Premium study note]() 
 ### Study Resources (some good website or video need to be save for dig in more knowledge and later use)
 * [Microservice Premium](https://helda.helsinki.fi/bitstream/handle/10138/234239/transforming-monolithic-architecture.pdf?sequence=2&isAllowed=y) challenges transforing monolithic achitecture towards microservice architecture 
 ### Useful Tools 
