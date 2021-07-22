@@ -10,7 +10,7 @@ FullStack Web Develop Study Note
 
 ## Front-End
 ### Concepts and UseCases
-*[Front End study note](https://github.com/DeniseTang1018/FullStack-Web-Develop-Study-Note/blob/main/Front%20End%20study%20note)
+* [Front End study note](https://github.com/DeniseTang1018/FullStack-Web-Develop-Study-Note/blob/main/Front%20End%20study%20note)
 ### Study Resources (some good website or video need to be save for dig in more knowledge and later use)
 ### Useful Tools 
 * [Adobe XD](https://www.adobe.com/products/xd.html) A powerful UI/UX design Tool
