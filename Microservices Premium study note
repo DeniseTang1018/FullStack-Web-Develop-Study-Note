@@ -4,3 +4,7 @@ what are some challenge facing?
 2) Commucation challenge. How to handle communitcation between services? RestAPI? (not good at continuous changes)
 3) Testing challenge. 
 
+Ownership (differenet developer change same code or change code while other using the API)
+Scalability ()
+Complexity ()
+
