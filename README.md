@@ -30,6 +30,7 @@ FullStack Web Develop Study Note
 ## Programming Technique
 ### Concepts and UseCases (some good website or video need to be save for dig in more knowledge and later use)
 * [Design Pattern](https://medium.com/educative/the-7-most-important-software-design-patterns-d60e546afb0e) 7 Most Important Software Design Patterns | Temp need to be add later
+* [Nice Design Pattern resource with great example and visual](https://refactoring.guru/design-patterns/java)
 ### Study Resources
 ### Useful Tools
 
