@@ -23,12 +23,18 @@ Annotation commonly used in Model layer that from Lombok:
 
 Concept:
 Repository interface pattern
-Repository pattern main goal was the abstraction of the database access code. JPA already provides this abstraction. So, there is no need for another layer that provides the same functionality.
+Repository pattern main goal was the abstraction of the database access code. JPA already provides this abstraction. So, there is no need for another layer that provides 
+the same functionality.
 There is a lot of change as the initail goal of Repositiory pattern. Nowaday, it is use as:
 
 DAO Pattern
-DAO stands for Data Access Object. DAO Design Pattern is used to separate the data persistence logic in a separate layer. This way, the service remains completely in dark about how the low-level operations to access the database is done.
-
+DAO stands for Data Access Object. DAO Design Pattern is used to separate the data persistence logic in a separate layer. 
+This way, the service remains completely in dark about how the low-level operations to access the database is done.
+DAO interface basically is CRUD 
+-Data Access Object Interface - This interface defines the standard operations to be performed on a model object(s).
+-Data Access Object concrete class - This class implements above interface. 
+  This class is responsible to get data from a data source which can be database / xml or any other storage mechanism.
+-Model Object or Value Object - This object is simple POJO containing get/set methods to store data retrieved using DAO class.
 
 
 Reference from:
