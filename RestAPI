@@ -22,8 +22,12 @@ Annotation commonly used in Model layer that from Lombok:
 @Builder annotation is from project Lombok. It makes it possible for us to use the builder pattern with our Todo model.
 
 Concept:
-Repository interface
+Repository interface pattern
+Repository pattern main goal was the abstraction of the database access code. JPA already provides this abstraction. So, there is no need for another layer that provides the same functionality.
+There is a lot of change as the initail goal of Repositiory pattern. Nowaday, it is use as:
 
+DAO Pattern
+DAO stands for Data Access Object. DAO Design Pattern is used to separate the data persistence logic in a separate layer. This way, the service remains completely in dark about how the low-level operations to access the database is done.
 
 
 
