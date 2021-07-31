@@ -1,0 +1,32 @@
+cheat sheet for Rest API CRUD operations map to HTTP verbs and SQL operations
+
+Operation	  SQL	      HTTP verb	      Rest web service
+Create	        INSERT	      POST/PUT	          POST
+Read	        SELECT	      GET	          GET
+Update	        UPDATE	      POST/PUT/PATCH	  PUT
+Delete	        DELETE	      DELETE	          DELETE
+
+Annotation commonly used in Model layer that from Hibernate or SQL:
+
+@Entity annotation shows that the class is a persistent Java class.
+@Id annotation shows that the annotated field is the primary key.
+@GeneratedValue annotation is used to specify the generation strategy used for the primary key.
+@Column annotation defines the column in the database that maps the annotated field.
+@CreationTimestamp annotation is a JPA annotation that automatically updates the todo creation timestamp.
+@UpdateTimestamp annotation is a JPA annotation that automatically updates the todo last modified timestamp.
+
+Annotation commonly used in Model layer that from Lombok:
+@Data annotation is from project Lombok. It generates the getters and setters for all the fields that we have in the todo class, equals method, and a toString method.
+@NoArgsConstructor annotation is from project Lombok and it generates an empty constructor for our Todo class.
+@AllArgsConstructor annotation is from project Lombok and it generates a constructor with all the fields that are available in our Todo class.
+@Builder annotation is from project Lombok. It makes it possible for us to use the builder pattern with our Todo model.
+
+Concept:
+Repository interface
+
+
+
+
+Reference from:
+https://www.section.io/engineering-education/spring-boot-crud-api/
+https://thorben-janssen.com/implementing-the-repository-pattern-with-jpa-and-hibernate/
