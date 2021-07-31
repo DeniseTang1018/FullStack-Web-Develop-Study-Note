@@ -22,6 +22,7 @@ FullStack Web Develop Study Note
 * Java Reflection 
   * Refection API (https://docs.oracle.com/javase/tutorial/reflect/index.html)
   * Prevent refelection (https://stackoverflow.com/questions/29246028/how-to-prevent-access-via-reflection)
+  * [Restful API study note](https://github.com/DeniseTang1018/FullStack-Web-Develop-Study-Note/blob/main/)
 ### Study Resources (some good website or video need to be save for dig in more knowledge and later use)
 * [Concurrency](https://winterbe.com/posts/2015/04/07/java8-concurrency-tutorial-thread-executor-examples/) Java 8 Concurrency Tutorial: Threads and Executors
 ### Useful Tools
