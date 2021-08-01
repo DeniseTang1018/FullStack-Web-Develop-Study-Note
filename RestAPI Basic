@@ -52,4 +52,4 @@ DAO is using the Operation vs Repositiory use the Rest web service for CRUD
 Reference from:
 https://www.section.io/engineering-education/spring-boot-crud-api/
 https://thorben-janssen.com/implementing-the-repository-pattern-with-jpa-and-hibernate/
-https://www.baeldung.com/java-dao-vs-repository
+*https://www.baeldung.com/java-dao-vs-repository* with very good example
