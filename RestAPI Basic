@@ -21,6 +21,25 @@ Annotation commonly used in Model layer that from Lombok:
 @AllArgsConstructor annotation is from project Lombok and it generates a constructor with all the fields that are available in our Todo class.
 @Builder annotation is from project Lombok. It makes it possible for us to use the builder pattern with our Todo model.
 
+Annotation commonly used in Repository layer from Spring:
+@service annotation makes Spring context be aware of this class as a service.
+
+Annotation commonly used in Controller layer from Spring:
+@RestController annotation marks this class as a controller that can process the incoming HTTP requests.
+@RequestMapping("some path eg. /api/v1/todo ") annotation sets the base path to the resource endpoints in the controller as /api/v1/todo.
+We inject the TodoService through our contractor to be able to use the various methods defined in it within the TodoController class.
+@GetMapping annotation indicates that the function processes a GET request.
+@PostMapping annotation indicates that a function processes a POST request.
+@PutMapping annotation indicates that a function processes a PUT request.
+@DeleteMapping annotation indicates that a function processes a DELETE request.
+
+Annotation commonly use in BootStrapper layer when using builder pattern:
+@Component annotation informs Spring that this class is a Spring component.
+
+If access in order:
+HTTP Rquests --> Controller --> repository --> DAO --> Database
+
+
 Concept:
 
 Repository interface pattern
@@ -31,7 +50,6 @@ Benefit:
 1.That enables you to replace a data store with a completely different one, e.g., a relational database with a NoSQL database.
 2.all database access methods for an entity are defined in the same repository and not in different parts of the business logic. 
 That makes the implementation of your business logic and reusing queries or other database operations much easier.
-
 
 DAO Pattern
 DAO stands for Data Access Object. DAO Design Pattern is used to separate the data persistence logic in a separate layer. 
@@ -54,6 +72,8 @@ In short, DAO is more close to database vs repository is more close to business 
 -DAO works as a data mapping/access layer, hiding ugly queries. However, a repository is a layer between domains and data access layers, 
   hiding the complexity of collating data and preparing a domain object
 -DAO can't be implemented using a repository. However, a repository can use a DAO for accessing underlying storage
+
+
 
 Reference from:
 https://www.section.io/engineering-education/spring-boot-crud-api/
