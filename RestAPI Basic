@@ -1,4 +1,4 @@
-cheat sheet for Rest API CRUD operations map to HTTP verbs and SQL operations
+Cheat sheet for Rest API CRUD operations map to HTTP verbs and SQL operations
 
 Operation	  SQL	      HTTP verb	      Rest web service
 Create	        INSERT	      POST/PUT	          POST
@@ -22,10 +22,16 @@ Annotation commonly used in Model layer that from Lombok:
 @Builder annotation is from project Lombok. It makes it possible for us to use the builder pattern with our Todo model.
 
 Concept:
+
 Repository interface pattern
 Repository pattern main goal was the abstraction of the database access code. JPA already provides this abstraction. So, there is no need for another layer that provides 
 the same functionality.
-There is a lot of change as the initail goal of Repositiory pattern. Nowaday, it is use as:
+There is a lot of change as the initail goal of Repositiory pattern. Nowaday, it is use as a higher level of abstraction and hides all specifics of the data store.
+Benefit:
+1.That enables you to replace a data store with a completely different one, e.g., a relational database with a NoSQL database.
+2.all database access methods for an entity are defined in the same repository and not in different parts of the business logic. 
+That makes the implementation of your business logic and reusing queries or other database operations much easier.
+
 
 DAO Pattern
 DAO stands for Data Access Object. DAO Design Pattern is used to separate the data persistence logic in a separate layer. 
@@ -36,7 +42,12 @@ DAO interface basically is CRUD
   This class is responsible to get data from a data source which can be database / xml or any other storage mechanism.
 -Model Object or Value Object - This object is simple POJO containing get/set methods to store data retrieved using DAO class.
 
+Difference between DAO and repository:
+A repository also deals with data and hides queries similar to DAO. However, it sits at a higher level, closer to the business logic of an app.
+Consequently, a repository can use a DAO to fetch data from the database and populate a domain object. Or, 
+it can prepare the data from a domain object and send it to a storage system using a DAO for persistence.
 
 Reference from:
 https://www.section.io/engineering-education/spring-boot-crud-api/
 https://thorben-janssen.com/implementing-the-repository-pattern-with-jpa-and-hibernate/
+https://www.baeldung.com/java-dao-vs-repository
