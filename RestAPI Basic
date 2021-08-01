@@ -47,7 +47,7 @@ A repository also deals with data and hides queries similar to DAO. However, it 
 Consequently, a repository can use a DAO to fetch data from the database and populate a domain object. Or, 
 it can prepare the data from a domain object and send it to a storage system using a DAO for persistence.
 
-DAO is using the Operation vs Repositiory use the Rest web service
+DAO is using the Operation vs Repositiory use the Rest web service for CRUD
 
 Reference from:
 https://www.section.io/engineering-education/spring-boot-crud-api/
