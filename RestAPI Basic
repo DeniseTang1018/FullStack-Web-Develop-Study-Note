@@ -1,3 +1,11 @@
+HTTP status code:
+1XX information 
+2XX success
+3XX redirection
+4XX client error
+5XX server error
+
+
 Cheat sheet for Rest API CRUD operations map to HTTP verbs and SQL operations
 
 Operation	  SQL	      HTTP verb	      Rest web service
