@@ -6,6 +6,8 @@ Read	        SELECT	      GET	          GET
 Update	        UPDATE	      POST/PUT/PATCH	  PUT
 Delete	        DELETE	      DELETE	          DELETE
 
+Difference between PUT and POST is PUT is safe to repeatedly send where POST is not safe to send repeatedly  
+
 Annotation commonly used in Model layer that from Hibernate or SQL:
 
 @Entity annotation shows that the class is a persistent Java class.
