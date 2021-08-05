@@ -1,6 +1,8 @@
 RestAPI Scenario:
 
-1. https://www.youtube.com/watch?v=NK3HNEwDXUk&list=PLqq-6Pq4lTTZh5U8RbdXq0WaYvZBz2rbn&index=8
+1.https://www.youtube.com/watch?v=NK3HNEwDXUk&list=PLqq-6Pq4lTTZh5U8RbdXq0WaYvZBz2rbn&index=8
 Add links in response message to provide convience so the client don't need to query
+https://www.youtube.com/watch?v=vvcANMpfr5I Spring boot example
 2.https://www.youtube.com/watch?v=wJBAFZv_KN0&list=PLG5RS5k7TfUqDHBklOB35W3MamGLBLJQW&index=13
 Page sorting, querying, filtering in JPA
+3.
