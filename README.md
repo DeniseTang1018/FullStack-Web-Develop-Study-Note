@@ -22,7 +22,7 @@ FullStack Web Develop Study Note
 * Java Reflection 
   * Refection API (https://docs.oracle.com/javase/tutorial/reflect/index.html)
   * Prevent refelection (https://stackoverflow.com/questions/29246028/how-to-prevent-access-via-reflection)
-* [Restful API study note](https://github.com/DeniseTang1018/FullStack-Web-Develop-Study-Note/blob/main/RestAPI) &nbsp [Note 2](https://github.com/DeniseTang1018/FullStack-Web-Develop-Study-Note/blob/main/RestAPI%20Advance)
+* [Restful API study note](https://github.com/DeniseTang1018/FullStack-Web-Develop-Study-Note/blob/main/RestAPI) [Note 2](https://github.com/DeniseTang1018/FullStack-Web-Develop-Study-Note/blob/main/RestAPI%20Advance)
 * NodeJS
   * Building a Restful CRUD API with Node.js, Express and MongoDB (https://www.callicoder.com/node-js-express-mongodb-restful-crud-api-tutorial/)
 ### Study Resources (some good website or video need to be save for dig in more knowledge and later use)
