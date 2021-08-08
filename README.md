@@ -25,6 +25,7 @@ FullStack Web Develop Study Note
 * [Restful API study note](https://github.com/DeniseTang1018/FullStack-Web-Develop-Study-Note/blob/main/RestAPI), [Note 2](https://github.com/DeniseTang1018/FullStack-Web-Develop-Study-Note/blob/main/RestAPI%20Advance)
 * NodeJS
   * Building a Restful CRUD API with Node.js, Express and MongoDB (https://www.callicoder.com/node-js-express-mongodb-restful-crud-api-tutorial/)
+* Java Volatile keywords (http://tutorials.jenkov.com/java-concurrency/volatile.html)
 ### Study Resources (some good website or video need to be save for dig in more knowledge and later use)
 * [Concurrency](https://winterbe.com/posts/2015/04/07/java8-concurrency-tutorial-thread-executor-examples/) Java 8 Concurrency Tutorial: Threads and Executors
 ### Useful Tools
