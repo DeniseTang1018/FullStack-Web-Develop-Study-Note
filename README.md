@@ -28,6 +28,7 @@ FullStack Web Develop Study Note
 * Java Volatile keywords (http://tutorials.jenkov.com/java-concurrency/volatile.html)
 * Spring security with JWT,ZUUL,Eureka (https://medium.com/@arjunac009/spring-boot-microservice-with-centralized-authentication-zuul-eureka-jwt-5719e05fde29)
 * Handle Security in Zuul, with OAuth2 and JWT (https://www.baeldung.com/spring-security-zuul-oauth-jwt)
+* Serialization (https://www.baeldung.com/java-serialization)
 ### Study Resources (some good website or video need to be save for dig in more knowledge and later use)
 * [Concurrency](https://winterbe.com/posts/2015/04/07/java8-concurrency-tutorial-thread-executor-examples/) Java 8 Concurrency Tutorial: Threads and Executors
 ### Useful Tools
