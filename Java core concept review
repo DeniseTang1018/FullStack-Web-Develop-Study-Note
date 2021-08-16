@@ -1,2 +1,6 @@
-1. How to choose between Vector, ArrayList, LinkedList? 
-  vector character is synchonized. ArrayList(Array) good at storing, accessing data. LinkedList easy to manipulating data (changes).
+1. How to choose between Vector, ArrayList, LinkedList, set? 
+  vector character is synchonized. 
+  ArrayList(Array) good at storing, accessing data. 
+  LinkedList easy to manipulating data (changes).
+  Set doesn't allow duplicate by default. 
+  Array is considered as “indexed collection” type of data structure, while Set is considered as “keyed collection”.
