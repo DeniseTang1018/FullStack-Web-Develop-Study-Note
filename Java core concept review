@@ -1,0 +1,2 @@
+1. How to choose between Vector, ArrayList, LinkedList? 
+  vector character is synchonized. ArrayList(Array) good at storing, accessing data. LinkedList easy to manipulating data (changes).
