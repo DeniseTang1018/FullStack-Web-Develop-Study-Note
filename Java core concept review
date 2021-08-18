@@ -4,3 +4,10 @@
   LinkedList easy to manipulating data (changes).
   Set doesn't allow duplicate by default. 
   Array is considered as “indexed collection” type of data structure, while Set is considered as “keyed collection”.
+
+2. Difference between abstract and inferface class in Java expecially after Java 8
+  After introducing Default Method, it seems that interfaces and abstract classes are same. However, they are still different concept in Java 8.
+  Abstract class can define constructor. They are more structured and can have a state associated with them. 
+  While in contrast, default method can be implemented only in the terms of invoking other interface methods, 
+  with no reference to a particular implementation's state. 
+  Hence, both use for different purposes and choosing between two really depends on the scenario context.
