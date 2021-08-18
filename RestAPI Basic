@@ -83,9 +83,21 @@ In short, DAO is more close to database vs repository is more close to business 
   hiding the complexity of collating data and preparing a domain object
 -DAO can't be implemented using a repository. However, a repository can use a DAO for accessing underlying storage
 
+Difference between @PathVariable and @RequestParam in Spring?
+1) The @RequestParam is used to extract query parameters while @PathVariable is used to extract data right from the URI.
+2) @RequestParam is more useful on a traditional web application where data is mostly passed in the query abatements 
+while @PathVariable is more suitable for RESTful web services where URL contains values, like http://localhost:8080/book/9783827319333, 
+here data, which is ISBN number is part of URI.
+
+Difference between @Param and @RequestParam in Spring
+@Param (org.springframework.data.repository.query.Param) is used to bind the method parameter to Query parameter.
+@RequestParam is used to bind method parameter to web URL request parameter.
+
+
 
 
 Reference from:
 https://www.section.io/engineering-education/spring-boot-crud-api/
 https://thorben-janssen.com/implementing-the-repository-pattern-with-jpa-and-hibernate/
 *https://www.baeldung.com/java-dao-vs-repository* with very good example
+https://javarevisited.blogspot.com/2017/10/differences-between-requestparam-and-pathvariable-annotations-spring-mvc.html#ixzz73qZEsJAM
