@@ -10,4 +10,5 @@ https://www.youtube.com/watch?v=ZLA8ABWGOSA
 4.how to write a api? what to put in service, repository, controller, dao layers.
 5.A service could also get information from another internal api(through get request, how to use those information to grab the information you need?)(try to think a show case)
 Could take a look of: HackerRank Skills Certification | Rest API (Intermediate) Certificate Test | Java 8 Solution (https://www.youtube.com/watch?v=0br3nIJUS14)
+6.String format commonly use to format URL or path format
 
