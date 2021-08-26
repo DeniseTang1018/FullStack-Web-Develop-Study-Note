@@ -3,6 +3,7 @@ Git commands:
   Clone: Bring a repository that is hosted somewhere like github into a folder on local machine
   Add: Track files and chinges in git
   Commit: save files changes in git 
+  Pull Requests: let other who have the same cope to pull your changes.
   
   Most of time don't commit to master branches always mereg new branch. (https://www.youtube.com/watch?v=xH7RT1KHbv8)
   
