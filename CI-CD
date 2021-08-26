@@ -4,6 +4,7 @@ Git commands:
   Add: Track files and chinges in git
   Commit: save files changes in git 
   Pull Requests: let other who have the same cope to pull your changes.
+  Fetch: get the information to see if there is any changes on github.
   
  .gitignore files (https://www.atlassian.com/git/tutorials/saving-changes/gitignore)
  Git sees every file in your working copy as one of three things:
