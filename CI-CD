@@ -5,7 +5,26 @@ Git commands:
   Commit: save files changes in git 
   Pull Requests: let other who have the same cope to pull your changes.
   
-  Most of time don't commit to master branches always mereg new branch. (https://www.youtube.com/watch?v=xH7RT1KHbv8)
+ .gitignore files (https://www.atlassian.com/git/tutorials/saving-changes/gitignore)
+ Git sees every file in your working copy as one of three things:
+ 
+ tracked - a file which has been previously staged or committed;
+ untracked - a file which has not been staged or committed; 
+ ignored - a file which Git has been explicitly told to ignore.
+ 
+ Ignored files are usually build artifacts and machine generated files that can be derived from your repository source or should otherwise not be committed. 
+ Some common examples are:
+ 
+ dependency caches, such as the contents of /node_modules or /packages
+ compiled code, such as .o, .pyc, and .class files
+ build output directories, such as /bin, /out, or /target
+ files generated at runtime, such as .log, .lock, or .tmp
+ hidden system files, such as .DS_Store or Thumbs.db
+ personal IDE config files, such as .idea/workspace.xml
+
+
+
+Most of time don't commit to master branches always mereg new branch. (https://www.youtube.com/watch?v=xH7RT1KHbv8)
   
   
   
