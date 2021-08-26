@@ -4,5 +4,7 @@ Git commands:
   Add: Track files and chinges in git
   Commit: save files changes in git 
   
+  Most of time don't commit to master branches always mereg new branch. (https://www.youtube.com/watch?v=xH7RT1KHbv8)
+  
   
   
